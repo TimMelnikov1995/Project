@@ -72,12 +72,15 @@ public class ServiceLocator : MonoBehaviour
         Debug.Log("Register " + type.ToString());
     }
 
-    public static void Unregister(object service)
+    public static void Unregister(object service, Type specialType = null)
     {
         if (!Instance)
             return;
 
         Type type = service.GetType();
+        if (specialType != null)
+            type = specialType;
+
         if (Instance._services.Remove(type) == false)
         {
             Debug.Log($"Cant unregister service of type '{type.FullName}', it is not registered");

@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class ExamplePlayer : MonoBehaviour
+public class ExamplePlayer : Player
 {
     [SerializeField] CharacterController m_characterController;
     [SerializeField] Transform m_groundCheck;
@@ -9,13 +9,15 @@ public class ExamplePlayer : MonoBehaviour
 
     PlayerMovement _movement;
 
-    void OnEnable()
+    protected override void OnEnable()
     {
+        base.OnEnable();
         InitMovement();
     }
 
-    void OnDisable()
+    protected override void OnDisable()
     {
+        base.OnDisable();
         _movement.Dispose();
     }
 
