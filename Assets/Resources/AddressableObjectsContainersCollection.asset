@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f515f63026c36541890026a1733ca48, type: 3}
+  m_Name: AddressableObjectsContainersCollection
+  m_EditorClassIdentifier: 
+  m_addressableObjectsContainersCollection:
+  - {fileID: 11400000, guid: 473edd970370ff54191f8e9fb401cf66, type: 2}
+  - {fileID: 11400000, guid: 1c3a04892941a5c4f946e334b559036a, type: 2}
+  AddressableObjectInfos:
+  - Name: MenuUI
+    Object:
+      m_AssetGUID: 565174bb264baa6479ed1dcebc7e9ed0
+      m_SubObjectName: 
+      m_SubObjectGUID: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+  - Name: SettingsUI
+    Object:
+      m_AssetGUID: 48f3780afd91dea43920011cb0acb38c
+      m_SubObjectName: 
+      m_SubObjectGUID: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+  - Name: QuestsUI
+    Object:
+      m_AssetGUID: 045da19717b0a35499e15e58e6834e44
+      m_SubObjectName: 
+      m_SubObjectGUID: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 1
+  - Name: LoadingScreenUI
+    Object:
+      m_AssetGUID: 2e454657a49260d4489ef935e26362ba
+      m_SubObjectName: 
+      m_SubObjectGUID: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+  - Name: PauseUI
+    Object:
+      m_AssetGUID: d2286725c3f53914eaac0fd877b10942
+      m_SubObjectName: 
+      m_SubObjectGUID: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+  - Name: PlayerPrefab
+    Object:
+      m_AssetGUID: 7deade6b96cd66b4fb5e2531ea51f48c
+      m_SubObjectName: 
+      m_SubObjectGUID: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0

@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80be2eac97ed09b46aad196f524d60c9, type: 3}
+  m_Name: SfxAudioSettings
+  m_EditorClassIdentifier: 
+  ImportantSfxSourcePrefab: {fileID: 7153523924753709856, guid: de5a96a98feddb243ac25c7eb5c72966, type: 3}
+  UnimportantSfxSourcePrefab: {fileID: 7153523924753709856, guid: de5a96a98feddb243ac25c7eb5c72966, type: 3}
+  ImportantSfxCount: 25
+  UnimportanSfxtCount: 25
+  UnimportantSfxDelay: 0.2

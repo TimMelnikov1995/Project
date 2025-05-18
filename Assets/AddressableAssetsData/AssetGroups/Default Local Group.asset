@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Default Local Group
+  m_EditorClassIdentifier: 
+  m_GroupName: Default Local Group
+  m_GUID: 7a2311dd90111904080548aa8a2daa91
+  m_SerializeEntries:
+  - m_GUID: 045da19717b0a35499e15e58e6834e44
+    m_Address: Assets/_Prefabs/UI/QuestsUI.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1009174b145c0e44d926d8495800b461
+    m_Address: Assets/_Prefabs/UI/GameplayUI.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1cb961c057414194c941025286a9e132
+    m_Address: Assets/_Prefabs/UI/FinishUI.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2e454657a49260d4489ef935e26362ba
+    m_Address: Assets/_Prefabs/UI/LoadingScreenUI.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 48f3780afd91dea43920011cb0acb38c
+    m_Address: Assets/_Prefabs/UI/SettingsUI.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 565174bb264baa6479ed1dcebc7e9ed0
+    m_Address: Assets/_Prefabs/UI/MenuUI.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7deade6b96cd66b4fb5e2531ea51f48c
+    m_Address: Assets/_Prefabs/Player/Player.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d2286725c3f53914eaac0fd877b10942
+    m_Address: Assets/_Prefabs/UI/PauseUI.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: cecad6ede2dbd85479581a247739ab68, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: d29ee8d140356d74cbed0f993fdfaaa8, type: 2}
+    - {fileID: 11400000, guid: abb6291c30a7e1d498e77e08023b1eb4, type: 2}
