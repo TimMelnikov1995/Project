@@ -5,7 +5,7 @@ using UnityEngine;
 public class AddressableObjectsContainersCollection : ScriptableObject
 {
     [SerializeField] List<AddressableObjectsContainer> m_addressableObjectsContainersCollection;
-    [field: SerializeField, HideInInspector] public List<AddressableObjectInfo> AddressableObjectInfos = new();
+    [field: SerializeField, HideInInspector] public List<AddressableObjectInfo> AddressableObjectInfos { get; private set; } = new();
 
 #if UNITY_EDITOR
     void OnValidate()

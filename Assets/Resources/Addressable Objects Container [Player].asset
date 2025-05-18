@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f2216b394dcd604cb8e2bfa52181dac, type: 3}
   m_Name: 'Addressable Objects Container [Player]'
   m_EditorClassIdentifier: 
-  AddressableObjectInfos:
+  <AddressableObjectInfos>k__BackingField:
   - Name: PlayerPrefab
     Object:
       m_AssetGUID: 7deade6b96cd66b4fb5e2531ea51f48c

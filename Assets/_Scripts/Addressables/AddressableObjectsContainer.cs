@@ -3,7 +3,7 @@
 [CreateAssetMenu(fileName = "Addressable Objects Container", menuName = "ScriptableObjects/Addressable Objects Container", order = 1)]
 public class AddressableObjectsContainer : ScriptableObject
 {
-    [field: SerializeField] public AddressableObjectInfo[] AddressableObjectInfos;
+    [field: SerializeField] public AddressableObjectInfo[] AddressableObjectInfos { get; private set; }
 
 #if UNITY_EDITOR
     void OnValidate()

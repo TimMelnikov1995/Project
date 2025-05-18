@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 11edebbfd83c90e4f8d22092fbcfc9bf, type: 3}
   m_Name: LevelsPool
   m_EditorClassIdentifier: 
-  Levels:
+  <Levels>k__BackingField:
   - SceneBuildName: Level 1

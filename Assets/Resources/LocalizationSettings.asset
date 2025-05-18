@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0eafddcbd4aca194d87a03c71f768748, type: 3}
   m_Name: LocalizationSettings
   m_EditorClassIdentifier: 
-  Languages:
+  <Languages>k__BackingField:
   - m_lang: en
     m_text: {fileID: 4900000, guid: df666fa80b20ec3419e86fdb04db1267, type: 3}
     m_font: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

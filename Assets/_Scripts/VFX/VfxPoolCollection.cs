@@ -6,7 +6,7 @@ public class VfxPoolCollection : ScriptableObject
 {
     [SerializeField] VfxPool[] m_vfxPools;
 
-    [field: SerializeField] public Dictionary<string, Vfx> VFX = new();
+    [field: SerializeField] public Dictionary<string, Vfx> VFX { get; private set; } = new();
 
 #if UNITY_EDITOR
     void OnValidate()

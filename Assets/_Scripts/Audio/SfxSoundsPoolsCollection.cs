@@ -6,7 +6,7 @@ using static SfxSoundsPool;
 public class SfxSoundsPoolsCollection : ScriptableObject
 {
     [SerializeField] SfxSoundsPool[] m_soundPools;
-    [field: SerializeField] public Dictionary<string, Sound> Sounds = new();
+    [field: SerializeField] public Dictionary<string, Sound> Sounds { get; private set; } = new();
 
 #if UNITY_EDITOR
     void OnValidate()

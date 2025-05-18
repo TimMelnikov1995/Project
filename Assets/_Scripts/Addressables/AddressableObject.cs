@@ -2,7 +2,7 @@
 
 public class AddressableObject : MonoBehaviour
 {
-    [field: SerializeField] public string Name;
+    [field: SerializeField] public string Name { get; private set; }
 
     void OnEnable()
     {

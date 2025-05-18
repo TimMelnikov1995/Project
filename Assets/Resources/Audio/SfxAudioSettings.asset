@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80be2eac97ed09b46aad196f524d60c9, type: 3}
   m_Name: SfxAudioSettings
   m_EditorClassIdentifier: 
-  ImportantSfxSourcePrefab: {fileID: 7153523924753709856, guid: de5a96a98feddb243ac25c7eb5c72966, type: 3}
-  UnimportantSfxSourcePrefab: {fileID: 7153523924753709856, guid: de5a96a98feddb243ac25c7eb5c72966, type: 3}
-  ImportantSfxCount: 25
-  UnimportanSfxtCount: 25
-  UnimportantSfxDelay: 0.2
+  <ImportantSfxSourcePrefab>k__BackingField: {fileID: 7153523924753709856, guid: de5a96a98feddb243ac25c7eb5c72966, type: 3}
+  <UnimportantSfxSourcePrefab>k__BackingField: {fileID: 7153523924753709856, guid: de5a96a98feddb243ac25c7eb5c72966, type: 3}
+  <ImportantSfxCount>k__BackingField: 25
+  <UnimportanSfxtCount>k__BackingField: 25
+  <UnimportantSfxDelay>k__BackingField: 0.2

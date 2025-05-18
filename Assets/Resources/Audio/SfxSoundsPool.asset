@@ -12,4 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d1631562d01568d46ba2fd2159d4b876, type: 3}
   m_Name: SfxSoundsPool
   m_EditorClassIdentifier: 
-  Sounds: []
+  <Sounds>k__BackingField:
+  - Name: Test
+    Clips: []

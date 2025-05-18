@@ -52,6 +52,9 @@ public class PlayerMovement : IDisposable
 
     void Jump(bool jump)
     {
+        if(jump == false) 
+            return;
+
         if (_isGrounded)
         {
             _velocity.y = Mathf.Sqrt(_settings.JumpHeigh * -2 * _settings.Gravity);

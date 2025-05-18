@@ -11,7 +11,7 @@ public class GameState_Gameplay : GameState
         Transform mainCanvas = ServiceLocator.Get<MainCanvas>().transform;
 
         await ServiceLocator.Get<AddressablesService>().InstantiateObject(
-            ProjectNames.Addressables.Player.PlayerPrefab, asSingle: true);
+                ProjectNames.Addressables.Player.PlayerPrefab, asSingle: true);
 
         var gameplayUI = ServiceLocator.Get<AddressablesService>().InstantiateObject(
             ProjectNames.Addressables.UI.GameplayUI, parent: mainCanvas, asSingle: true);

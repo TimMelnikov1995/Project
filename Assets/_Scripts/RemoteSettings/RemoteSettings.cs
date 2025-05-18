@@ -3,9 +3,9 @@
 [CreateAssetMenu(fileName = "RemoteSettings", menuName = "ScriptableObjects/RemoteSettings", order = 1)]
 public class RemoteSettings : ScriptableObject
 {
-    [field: SerializeField] public string Id;
-    [field: SerializeField] public string GridId;
-    [field: SerializeField] public bool LoadAtRuntime;
+    [field: SerializeField] public string Id { get; private set; }
+    [field: SerializeField] public string GridId { get; private set; }
+    [field: SerializeField] public bool LoadAtRuntime { get; private set; }
     [Space]
 
 

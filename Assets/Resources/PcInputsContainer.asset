@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 06f585db0e5b35b4fa8f9fe93fccd2f1, type: 3}
   m_Name: PcInputsContainer
   m_EditorClassIdentifier: 
-  LookInput: {fileID: -5630151704836100654, guid: 052faaac586de48259a63d0c4782560b, type: 3}
-  MovementInput: {fileID: -1680190386980627800, guid: 052faaac586de48259a63d0c4782560b, type: 3}
-  JumpingInput: {fileID: -2099379676528639254, guid: 052faaac586de48259a63d0c4782560b, type: 3}
-  AttackingInput: {fileID: 1120369429361536294, guid: 052faaac586de48259a63d0c4782560b, type: 3}
-  EscInput: {fileID: 6441256497956224892, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+  <LookInput>k__BackingField: {fileID: -5630151704836100654, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+  <MovementInput>k__BackingField: {fileID: -1680190386980627800, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+  <JumpingInput>k__BackingField: {fileID: -2099379676528639254, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+  <AttackingInput>k__BackingField: {fileID: 1120369429361536294, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+  <EscInput>k__BackingField: {fileID: 6441256497956224892, guid: 052faaac586de48259a63d0c4782560b, type: 3}
