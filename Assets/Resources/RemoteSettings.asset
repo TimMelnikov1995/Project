@@ -15,7 +15,7 @@ MonoBehaviour:
   Id: 1Sme_2SnMx1Kep6jxCxPhc1ufjPYkBZnfVf-dE1DlnDo
   GridId: 0
   LoadAtRuntime: 1
-  PlayerMovementSpeed: 3.5
+  PlayerMovementSpeed: 4.5
   Sensitivity: 25
-  PlayerGravity: -10
+  PlayerGravity: -25
   PlayerJumpHeigh: 3

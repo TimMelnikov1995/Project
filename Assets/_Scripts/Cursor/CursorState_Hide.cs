@@ -2,7 +2,7 @@
 
 public class CursorState_Hide : CursorState
 {
-    public override void Enter()
+    protected override void Enter()
     {
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;

@@ -1,4 +1,4 @@
-﻿public abstract class CursorState
+﻿public class CursorState : CursorService
 {
-    public abstract void Enter();
+
 }
