@@ -16,6 +16,7 @@ public class AddressablesService
             Resources.Load<AddressableObjectsContainersCollection>("AddressableObjectsContainersCollection").AddressableObjectInfos.ToArray();
 
         _addressableObjectInfos.Clear();
+        
         foreach (AddressableObjectInfo objectInfo in addressableObjectInfos) 
         {
             _addressableObjectInfos.Add(objectInfo.Name, objectInfo);
@@ -62,6 +63,7 @@ public class AddressablesService
             if (_addressableObjectInfos.TryGetValue(name, out AddressableObjectInfo objectInfo))
                 if (objectInfo.InstancesCount != 0)
                 {
+                    Debug.Log($"Cant instantiate object by name {name}, this object must be one");
                     return null;
                 }   
 
@@ -118,8 +120,13 @@ public class AddressableObjectInfo
 
     public void Init(string name)
     {
+        if(OpHandle.IsValid())
+            OpHandle.Release();
+
         OpHandle = new();
         Name = name;
+        InstancesCount = 0;
+        IsLoaded = false;
     }
 
     public void PlusInstance()
