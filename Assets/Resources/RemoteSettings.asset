@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9665bc311faed14e9e5abec4fdadc5c, type: 3}
   m_Name: RemoteSettings
   m_EditorClassIdentifier: 
-  Id: 1Sme_2SnMx1Kep6jxCxPhc1ufjPYkBZnfVf-dE1DlnDo
-  GridId: 0
-  LoadAtRuntime: 1
+  <Id>k__BackingField: 
+  <GridId>k__BackingField: 
+  <LoadAtRuntime>k__BackingField: 0
   PlayerMovementSpeed: 4.5
   Sensitivity: 25
   PlayerGravity: -25

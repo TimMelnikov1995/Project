@@ -13,30 +13,9 @@ MonoBehaviour:
   m_Name: 'Addressable Objects Container [UI]'
   m_EditorClassIdentifier: 
   <AddressableObjectInfos>k__BackingField:
-  - Name: MenuUI
+  - Name: FinishUI
     Object:
-      m_AssetGUID: 565174bb264baa6479ed1dcebc7e9ed0
-      m_SubObjectName: 
-      m_SubObjectGUID: 
-      m_SubObjectType: 
-      m_EditorAssetChanged: 0
-  - Name: SettingsUI
-    Object:
-      m_AssetGUID: 48f3780afd91dea43920011cb0acb38c
-      m_SubObjectName: 
-      m_SubObjectGUID: 
-      m_SubObjectType: 
-      m_EditorAssetChanged: 0
-  - Name: QuestsUI
-    Object:
-      m_AssetGUID: 045da19717b0a35499e15e58e6834e44
-      m_SubObjectName: 
-      m_SubObjectGUID: 
-      m_SubObjectType: 
-      m_EditorAssetChanged: 0
-  - Name: LoadingScreenUI
-    Object:
-      m_AssetGUID: 2e454657a49260d4489ef935e26362ba
+      m_AssetGUID: 1cb961c057414194c941025286a9e132
       m_SubObjectName: 
       m_SubObjectGUID: 
       m_SubObjectType: 
@@ -48,6 +27,20 @@ MonoBehaviour:
       m_SubObjectGUID: 
       m_SubObjectType: 
       m_EditorAssetChanged: 0
+  - Name: LoadingScreenUI
+    Object:
+      m_AssetGUID: 2e454657a49260d4489ef935e26362ba
+      m_SubObjectName: 
+      m_SubObjectGUID: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+  - Name: MenuUI
+    Object:
+      m_AssetGUID: 565174bb264baa6479ed1dcebc7e9ed0
+      m_SubObjectName: 
+      m_SubObjectGUID: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
   - Name: PauseUI
     Object:
       m_AssetGUID: d2286725c3f53914eaac0fd877b10942
@@ -55,9 +48,16 @@ MonoBehaviour:
       m_SubObjectGUID: 
       m_SubObjectType: 
       m_EditorAssetChanged: 0
-  - Name: FinishUI
+  - Name: QuestsUI
     Object:
-      m_AssetGUID: 1cb961c057414194c941025286a9e132
+      m_AssetGUID: 045da19717b0a35499e15e58e6834e44
+      m_SubObjectName: 
+      m_SubObjectGUID: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+  - Name: SettingsUI
+    Object:
+      m_AssetGUID: 48f3780afd91dea43920011cb0acb38c
       m_SubObjectName: 
       m_SubObjectGUID: 
       m_SubObjectType: 

@@ -338,7 +338,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df5484bc57126dc499e3bc3e3db66f81, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Name: 
+  m_container: {fileID: 11400000, guid: 1c3a04892941a5c4f946e334b559036a, type: 2}
+  <Name>k__BackingField: PlayerPrefab
 --- !u!1 &6837462167545703427
 GameObject:
   m_ObjectHideFlags: 0

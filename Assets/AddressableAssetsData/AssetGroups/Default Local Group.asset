@@ -46,7 +46,7 @@ MonoBehaviour:
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 7deade6b96cd66b4fb5e2531ea51f48c
-    m_Address: Assets/_Prefabs/Player/Player.prefab
+    m_Address: Assets/_Prefabs/Player/PlayerPrefab.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0

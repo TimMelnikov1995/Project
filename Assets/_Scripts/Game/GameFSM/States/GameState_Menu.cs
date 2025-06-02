@@ -11,11 +11,11 @@ public class GameState_Menu : GameState
         Transform mainCanvas = ServiceLocator.Get<MainCanvas>().transform;
 
         var menu = ServiceLocator.Get<AddressablesService>().InstantiateObject(
-            ProjectNames.Addressables.UI.MenuUI, parent: mainCanvas, asSingle: true);
+            AllAddressableObjects.MenuUI, parent: mainCanvas, asSingle: true);
         var settings = ServiceLocator.Get<AddressablesService>().InstantiateObject(
-            ProjectNames.Addressables.UI.SettingsUI, parent: mainCanvas, asSingle: true);
+            AllAddressableObjects.SettingsUI, parent: mainCanvas, asSingle: true);
         var quests = ServiceLocator.Get<AddressablesService>().InstantiateObject(
-            ProjectNames.Addressables.UI.QuestsUI, parent: mainCanvas, asSingle: true);
+            AllAddressableObjects.QuestsUI, parent: mainCanvas, asSingle: true);
 
         await UniTask.WhenAll(menu, settings, quests);
 
@@ -33,7 +33,7 @@ public class GameState_Menu : GameState
     async UniTaskVoid LoadLastLevelAsync()
     {
         await ServiceLocator.Get<AddressablesService>().InstantiateObject(
-            ProjectNames.Addressables.UI.LoadingScreenUI, parent: ServiceLocator.Get<MainCanvas>().transform);
+            AllAddressableObjects.LoadingScreenUI, parent: ServiceLocator.Get<MainCanvas>().transform);
         await ServiceLocator.Get<LoadingScreenUI>().Show();
 
         int lastLevelIndex = ServiceLocator.Get<SaveLoadService>().CurrentSaveData.LastLevelIndex;

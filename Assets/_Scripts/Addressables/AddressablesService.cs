@@ -24,6 +24,11 @@ public class AddressablesService
             
     }
 
+    public async UniTask<AsyncOperationHandle<GameObject>> Load(AllAddressableObjects name)
+    {
+        return await Load(name.ToString());
+    }
+
     public async UniTask<AsyncOperationHandle<GameObject>> Load(string name)
     {
         if (_addressableObjectInfos.TryGetValue(name, out AddressableObjectInfo objectInfo))
@@ -44,6 +49,11 @@ public class AddressablesService
 
         Debug.LogError("Cant find addressable object " + name);
         return new();
+    }
+
+    public async UniTask<GameObject> InstantiateObject(AllAddressableObjects name, Vector3 position = default, Quaternion rotation = default, Transform parent = null, bool asSingle = false)
+    {
+        return await InstantiateObject(name.ToString(), position, rotation, parent, asSingle);
     }
 
     public async UniTask<GameObject> InstantiateObject(string name, Vector3 position = default, Quaternion rotation = default, Transform parent = null, bool asSingle = false)
@@ -99,8 +109,8 @@ public class AddressablesService
 [Serializable]
 public class AddressableObjectInfo
 {
-    [field: SerializeField] public string Name;
-    [field: SerializeField] public AssetReferenceGameObject Object;
+    public string Name;
+    public AssetReferenceGameObject Object;
 
     public int InstancesCount { get; private set; }
     public bool IsLoaded { get; private set; }

@@ -11,12 +11,12 @@ public class GameState_Gameplay : GameState
         Transform mainCanvas = ServiceLocator.Get<MainCanvas>().transform;
 
         await ServiceLocator.Get<AddressablesService>().InstantiateObject(
-                ProjectNames.Addressables.Player.PlayerPrefab, asSingle: true);
+                AllAddressableObjects.PlayerPrefab, asSingle: true);
 
         var gameplayUI = ServiceLocator.Get<AddressablesService>().InstantiateObject(
-            ProjectNames.Addressables.UI.GameplayUI, parent: mainCanvas, asSingle: true);
+            AllAddressableObjects.GameplayUI, parent: mainCanvas, asSingle: true);
         var pauseUI = ServiceLocator.Get<AddressablesService>().InstantiateObject(
-            ProjectNames.Addressables.UI.PauseUI, parent: mainCanvas, asSingle: true);
+            AllAddressableObjects.PauseUI, parent: mainCanvas, asSingle: true);
 
         await UniTask.WhenAll(gameplayUI, pauseUI);
 
