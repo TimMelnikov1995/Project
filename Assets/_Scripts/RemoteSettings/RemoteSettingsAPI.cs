@@ -32,7 +32,8 @@ public static class RemoteSettingsAPI
         {
             string[] columns = line.Split(",");
             string[] nameAndValue = columns.Take(2).Select(p => p.Trim()).ToArray();
-            textData.Add(nameAndValue[0], nameAndValue[1]);
+            if (nameAndValue[0] != string.Empty)
+                textData.Add(nameAndValue[0], nameAndValue[1]);
         }
 
         FieldInfo[] fields = remoteSettings.GetType().GetFields();
